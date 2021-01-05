@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class PopularTopics extends StatelessWidget {
   List<String> contents = [
     "Solar System" , "Stars" ,"Earth", "Outer Space"

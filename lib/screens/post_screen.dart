@@ -3,7 +3,6 @@ import 'package:astrounify/models/post_model.dart';
 import 'package:themify_flutter/themify_flutter.dart';
 
 class PostScreen extends StatefulWidget {
-  @override
   final Question question;
   PostScreen({this.question});
   _PostScreenState createState() => _PostScreenState();

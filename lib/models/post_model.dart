@@ -7,6 +7,7 @@ class Question {
   int votes;
   int repliesCount;
   int views;
+  // ignore: non_constant_identifier_names
   String created_at;
   Author author;
   List<Reply> replies;
@@ -17,6 +18,7 @@ class Question {
       this.votes,
       this.repliesCount,
       this.views,
+      // ignore: non_constant_identifier_names
       this.created_at,
       this.author,
       this.replies});
