@@ -12,9 +12,10 @@ class ProfileApp extends StatelessWidget {
             Container(
                 decoration: BoxDecoration(
                     gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [Colors.blueGrey, Colors.blue])),
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [Colors.blueGrey, Colors.blue],
+                )),
                 child: Container(
                   width: double.infinity,
                   height: 350.0,
